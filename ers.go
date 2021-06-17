@@ -1,4 +1,4 @@
-package emrsgo
+package ers
 
 import (
 	"regexp"

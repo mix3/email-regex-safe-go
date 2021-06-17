@@ -1,4 +1,4 @@
-module github.com/mix3/emrsgo
+module github.com/mix3/email-regex-safe-go
 
 go 1.16
 

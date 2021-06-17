@@ -1,15 +1,15 @@
-package emrsgo_test
+package ers_test
 
 import (
 	"regexp"
 	"testing"
 
-	"github.com/mix3/emrsgo"
+	ers "github.com/mix3/email-regex-safe-go"
 	"github.com/stretchr/testify/assert"
 )
 
-func New(opts ...emrsgo.Option) *regexp.Regexp {
-	v, err := emrsgo.New(opts...)
+func New(opts ...ers.Option) *regexp.Regexp {
+	v, err := ers.New(opts...)
 	if err != nil {
 		panic(err)
 	}
